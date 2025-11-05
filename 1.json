@@ -1,0 +1,939 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s",
+          "mode": "list",
+          "cachedResultName": "in8nvoice",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Invoice Number",
+              "displayName": "Invoice Number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Order Number",
+              "displayName": "Order Number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Invoice Date",
+              "displayName": "Invoice Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Due Date",
+              "displayName": "Due Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "From Company",
+              "displayName": "From Company",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "To Company",
+              "displayName": "To Company",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Quantity",
+              "displayName": "Line 1 Quantity",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Service",
+              "displayName": "Line 1 Service",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Description",
+              "displayName": "Line 1 Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Rate",
+              "displayName": "Line 1 Rate",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Adjustment %",
+              "displayName": "Line 1 Adjustment %",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 1 Total",
+              "displayName": "Line 1 Total",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Quantity",
+              "displayName": "Line 2 Quantity",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Service",
+              "displayName": "Line 2 Service",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Description",
+              "displayName": "Line 2 Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Rate",
+              "displayName": "Line 2 Rate",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Adjustment %",
+              "displayName": "Line 2 Adjustment %",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 2 Total",
+              "displayName": "Line 2 Total",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Quantity",
+              "displayName": "Line 3 Quantity",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Service",
+              "displayName": "Line 3 Service",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Description",
+              "displayName": "Line 3 Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Rate",
+              "displayName": "Line 3 Rate",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Adjustment %",
+              "displayName": "Line 3 Adjustment %",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Line 3 Total",
+              "displayName": "Line 3 Total",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Subtotal",
+              "displayName": "Subtotal",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Tax",
+              "displayName": "Tax",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Total Due",
+              "displayName": "Total Due",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Bank Name",
+              "displayName": "Bank Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Account Number",
+              "displayName": "Account Number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "BSB Number",
+              "displayName": "BSB Number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Status",
+              "displayName": "Status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Created At",
+              "displayName": "Created At",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Processed By",
+              "displayName": "Processed By",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.4,
+      "position": [
+        384,
+        -1088
+      ],
+      "id": "f267af4e-3b08-4cf1-bcf9-bb2a3e241c5f",
+      "name": "Save to Google Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "wcOorW5N13wtXrDJ",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "inputType": "url",
+        "url": "=https://api.telegram.org/file/bot8392230743:AAFFYjtNUhbwH3MCBjYsZMiETOthmaaa0CI/{{ $json[\"result\"][\"file_path\"] }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mistralAi",
+      "typeVersion": 1,
+      "position": [
+        -864,
+        -1088
+      ],
+      "id": "3f8d69dd-ea93-4cb6-8d6f-5826bbb7a5e1",
+      "name": "Extract text",
+      "credentials": {
+        "mistralCloudApi": {
+          "id": "DD2xa8GTawAW0lzY",
+          "name": "Mistral Cloud account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the extracted data directly from AI response\nconst data = $input.first().json.extracted || {};\n\n// Format date to ISO format\nconst formatDate = (dateStr) => {\n  if (!dateStr || dateStr === 'N/A' || dateStr === '') return '';\n  try {\n    const date = new Date(dateStr);\n    return date.toISOString().split('T')[0];\n  } catch {\n    return dateStr; // Return original if parsing fails\n  }\n};\n\n// Clean currency values\nconst cleanCurrency = (value) => {\n  if (value === undefined || value === null || value === 'N/A' || value === '') return 0;\n  return parseFloat(value.toString().replace(/[$,\\s]/g, '')) || 0;\n};\n\n// Safely get array items\nconst getArrayItem = (arr, index) => {\n  if (!Array.isArray(arr) || arr.length <= index) return {};\n  return arr[index];\n};\n\n// Get line items (safely handle missing items)\nconst lineItems = Array.isArray(data.lineItems) ? data.lineItems : [];\nconst firstLineItem = getArrayItem(lineItems, 0);\nconst secondLineItem = getArrayItem(lineItems, 1);\nconst thirdLineItem = getArrayItem(lineItems, 2);\n\n// Format the data for Google Sheets\nconst sheetData = {\n  // Invoice Identification\n  'Invoice Number': data.invoiceNum || 'N/A',\n  'Order Number': data.orderNum || 'N/A',\n  \n  // Dates\n  'Invoice Date': formatDate(data.invoiceDate),\n  'Due Date': formatDate(data.dueDate),\n  \n  // From/To\n  'From Company': data.from || 'N/A',\n  'To Company': data.to || 'N/A',\n  \n  // Line Item 1\n  'Line 1 Quantity': parseFloat(firstLineItem.quantity) || 0,\n  'Line 1 Service': firstLineItem.serviceName || 'N/A',\n  'Line 1 Description': firstLineItem.serviceDesc || 'N/A',\n  'Line 1 Rate': cleanCurrency(firstLineItem.rate),\n  'Line 1 Adjustment %': parseFloat(firstLineItem.adjustment) || 0,\n  'Line 1 Total': cleanCurrency(firstLineItem.lineTotal),\n  \n  // Line Item 2\n  'Line 2 Quantity': parseFloat(secondLineItem.quantity) || 0,\n  'Line 2 Service': secondLineItem.serviceName || 'N/A',\n  'Line 2 Description': secondLineItem.serviceDesc || 'N/A',\n  'Line 2 Rate': cleanCurrency(secondLineItem.rate),\n  'Line 2 Adjustment %': parseFloat(secondLineItem.adjustment) || 0,\n  'Line 2 Total': cleanCurrency(secondLineItem.lineTotal),\n  \n  // Line Item 3\n  'Line 3 Quantity': parseFloat(thirdLineItem.quantity) || 0,\n  'Line 3 Service': thirdLineItem.serviceName || 'N/A',\n  'Line 3 Description': thirdLineItem.serviceDesc || 'N/A',\n  'Line 3 Rate': cleanCurrency(thirdLineItem.rate),\n  'Line 3 Adjustment %': parseFloat(thirdLineItem.adjustment) || 0,\n  'Line 3 Total': cleanCurrency(thirdLineItem.lineTotal),\n  \n  // Financial Summary\n  'Subtotal': cleanCurrency(data.subtotal),\n  'Tax': cleanCurrency(data.tax),\n  'Total Due': cleanCurrency(data.totalDue),\n  \n  // Payment Details\n  'Bank Name': data.bankName || 'N/A',\n  'Account Number': data.accNum || 'N/A',\n  'BSB Number': data.bsbNum || 'N/A',\n  \n  // Metadata\n  'Status': 'Pending Approval',\n  'Created At': new Date().toISOString(),\n  'Processed By': 'n8n Automation'\n};\n\n// Return formatted data for Google Sheets\nreturn sheetData;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        -1088
+      ],
+      "id": "4ea8b432-769b-4651-b947-576866cb1a38",
+      "name": "Sheet Formatter",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Extract file_id from Telegram message (document, photo, video thumbnail, or sticker)\n\nif ($json.message && $json.message.document) {\n  return { file_id: $json.message.document.file_id };\n} else if ($json.message && $json.message.photo) {\n  // Use the largest photo (last in array)\n  const largestPhoto = $json.message.photo[$json.message.photo.length - 1];\n  return { file_id: largestPhoto.file_id };\n} else if ($json.message && $json.message.video && $json.message.video.thumb) {\n  // Use video thumbnail if available\n  return { file_id: $json.message.video.thumb.file_id };\n} else if ($json.message && $json.message.sticker) {\n  return { file_id: $json.message.sticker.file_id };\n} else {\n  throw new Error('No valid document, photo, video thumbnail, or sticker found');\n}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1536,
+        -1088
+      ],
+      "id": "c75a4622-402b-4ecb-824c-05313bfc85b1",
+      "name": "Extract File ID"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.pages[0].markdown }}\n\nAnalyze the provided document and perform the following CRITICAL validations:\nREQUIRED VALIDATIONS (Only proceed if these pass):\n1. Confirm this is an actual invoice document\n2. Verify all line item subtotals (quantity × unit price) calculate correctly\n3. Verify subtotal of all line items is accurate\n4. Confirm tax calculations are correct (subtotal × tax rate)\n5. Verify final total matches sum of subtotal + taxes + any other charges\n6. Ensure invoice number and date are present\nelse \"is_correct\" would be false along with the detailed reason for it\n\nIGNORE (do not flag as errors):\n- Spelling mistakes or typos\n- Formatting inconsistencies\n- Missing optional fields (phone, address details unless required for tax)\n- Item descriptions unless they prevent identification\n- Minor formatting issues\n\nIf ALL required validations pass without critical errors, return a structured JSON invoice with these fields:\n{\n  \"is_correct\": boolean,\n  \"reason\": \"string explaining why\",\n  \"missing_fields\": [\"field1\", \"field2\"],\n  \"extracted\": {\n    \"from\": \"string\",\n    \"to\": \"string\", \n    \"invoiceNum\": \"string\",\n    \"orderNum\": \"string\",\n    \"invoiceDate\": \"string\",\n    \"dueDate\": \"string\",\n    \"lineItems\": [\n      {\n        \"quantity\": number,\n        \"serviceName\": \"string\",\n        \"serviceDesc\": \"string\",\n        \"rate\": number,\n        \"adjustment\": number,\n        \"lineTotal\": number\n      }\n    ],\n    \"subtotal\": number,\n    \"tax\": number,\n    \"totalDue\": number,\n    \"bankName\": \"string\",\n    \"accNum\": \"string\",\n    \"bsbNum\": \"string\"\n  }\n}\n",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        -640,
+        -1088
+      ],
+      "id": "7d281486-a7d1-476c-99c6-61d174d59f68",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -576,
+        -864
+      ],
+      "id": "7c26c6c7-43ea-49ac-9bbb-da0e3727cb6c",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "Lg7p320eYgSmOhTq",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('check invoice file').item.json.message.from.id }}",
+        "text": "={{ $json.formatted_error }}",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        384,
+        -1280
+      ],
+      "id": "f7053cac-097d-4591-a6e9-21b036e0d457",
+      "name": "Ai Invalid Invoice",
+      "webhookId": "dbf4b7f9-1fde-4a27-8a87-1f7d10ac8fab",
+      "credentials": {
+        "telegramApi": {
+          "id": "9Q95yMMRQ3weTXjl",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram Bot Trigger').item.json.message.chat.id }}",
+        "text": "❌ Invalid file type. Please send only PDF or image files (jpg, jpeg, png, gif, bmp).",
+        "additionalFields": {
+          "parse_mode": "Markdown"
+        }
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        -1536,
+        -1280
+      ],
+      "id": "79120f0d-6e3e-4de4-93ed-a5fdb4c6d2b6",
+      "name": "No texts",
+      "webhookId": "4c559bbc-56a5-4356-b06a-158af26d1d73",
+      "credentials": {
+        "telegramApi": {
+          "id": "9Q95yMMRQ3weTXjl",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "expression",
+        "numberOutputs": 2,
+        "output": "={{ $json.is_correct ? true : false }}"
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        -64,
+        -1088
+      ],
+      "id": "5b17753a-a84f-456f-87dd-d1db0ce81b7c",
+      "name": "Ai check invoice"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.telegram.org/bot8392230743:AAFFYjtNUhbwH3MCBjYsZMiETOthmaaa0CI/getFile?file_id={{ $json.file_id }}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1312,
+        -1088
+      ],
+      "id": "6cc9d57f-3814-4ce6-bc0e-0d2a06a6a93f",
+      "name": "get invoice file"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.telegram.org/file/bot8392230743:AAFFYjtNUhbwH3MCBjYsZMiETOthmaaa0CI/{{ $json.result.file_path }}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1088,
+        -1088
+      ],
+      "id": "cc28b959-83aa-483b-b9e7-bc126132c596",
+      "name": "download invoice file"
+    },
+    {
+      "parameters": {
+        "mode": "expression",
+        "numberOutputs": 2,
+        "output": "={{ $json.message.document \n    ? ['pdf','jpg','jpeg','png','gif','bmp','webp','tiff','tif','svg','heic','heif'].includes($json.message.document.file_name.toLowerCase().split('.').pop()) \n    : ($json.message.photo ? true : false) }}"
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        -1760,
+        -1184
+      ],
+      "id": "de4d718c-33e8-48d1-89f7-9b094296ba7e",
+      "name": "check invoice file"
+    },
+    {
+      "parameters": {
+        "updates": "={{ [\"shipping_query\",\"message\"] }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -1984,
+        -1184
+      ],
+      "id": "76640bb6-ab31-4696-a398-19c0868bfe88",
+      "name": "Telegram Bot Trigger",
+      "webhookId": "42de6d00-b970-4128-8a91-04d7505f1854",
+      "retryOnFail": true,
+      "executeOnce": false,
+      "credentials": {
+        "telegramApi": {
+          "id": "9Q95yMMRQ3weTXjl",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('check invoice file').item.json.message.from.id }}",
+        "text": "=📄 *INVOICE PREVIEW*\n\n━━━━━━━━━━━━━━━━━━━━\n\n*FROM:*\n{{ $json.extracted.from }}\n\n*TO:*\n{{ $json.extracted.to }}\n\n━━━━━━━━━━━━━━━━━━━━\n\n📋 *INVOICE DETAILS:*\n• Invoice #: `{{ $json.extracted.invoiceNum }}`\n• Order #: `{{ $json.extracted.orderNum }}`\n• Invoice Date: {{ $json.extracted.invoiceDate }}\n• Due Date: {{ $json.extracted.dueDate }}\n\n━━━━━━━━━━━━━━━━━━━━\n\n🛍️ *SERVICE LINE ITEM:*\n• Quantity: {{ $json.extracted.lineItems[0]?.quantity || 'N/A' }}\n• Service: {{ $json.extracted.lineItems[0]?.serviceName || 'N/A' }}\n• Description: {{ $json.extracted.lineItems[0]?.serviceDesc || 'N/A' }}\n• Rate/Price: ${{ $json.extracted.lineItems[0]?.rate || '0.00' }}\n• Adjustment: {{ $json.extracted.lineItems[0]?.adjustment || '0.00' }}%\n• Line Total: ${{ $json.extracted.lineItems[0]?.lineTotal || '0.00' }}\n\n━━━━━━━━━━━━━━━━━━━━\n\n💰 *FINANCIAL SUMMARY:*\n• Subtotal: ${{ $json.extracted.subtotal || '0.00' }}\n• Tax: ${{ $json.extracted.tax || '0.00' }}\n• *TOTAL DUE: ${{ $json.extracted.totalDue || '0.00' }}*\n\n━━━━━━━━━━━━━━━━━━━━\n\n🏦 *PAYMENT DETAILS:*\n{{ $json.extracted.bankName || 'N/A' }}\n• Account #: {{ $json.extracted.accNum || 'N/A' }}\n• BSB #: {{ $json.extracted.bsbNum || 'N/A' }}\n\n━━━━━━━━━━━━━━━━━━━━\n\n✅ *This invoice has been validated by AI.*\n🔗 [Edit this invoice in Google Sheets](https://docs.google.com/spreadsheets/d/1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s/edit?usp=sharing)",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        384,
+        -896
+      ],
+      "id": "c4bcb3e5-e249-44c2-b77d-a5ec2a7a9335",
+      "name": "Send Invoice",
+      "webhookId": "f55a9d4a-a7c3-40b9-9a85-c91a490b5bc9",
+      "credentials": {
+        "telegramApi": {
+          "id": "9Q95yMMRQ3weTXjl",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Return the already-parsed AI response as-is\nreturn [{ json: $input.first().json }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        -896
+      ],
+      "id": "506bd2c7-e028-4a71-8ac0-05568e2f3435",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "content": "# 📄 Invoice Processing Automation (n8n Agent) - User Guide\n\nWelcome to the **Invoice Processing Automation** workflow! This n8n-powered agent is designed to streamline your invoice management by automatically extracting data from uploaded documents and saving it to Google Sheets — all with minimal manual effort.\n\n---\n\n## 🎯 What Does It Do?\n\nThis system allows users to:\n1. **Send an invoice** (PDF or image) via Telegram.\n2. The bot **automatically validates** the file type.\n3. Extracts key information using AI (Google Gemini).\n4. **Formats the data** into a structured table.\n5. Saves the invoice details to a **Google Sheet**.\n6. Sends a **preview summary** back via Telegram.\n\nPerfect for freelancers, small businesses, or teams managing multiple invoices daily!\n\n---\n\n## 🔧 How to Use It\n\n### 1. **Set Up Your Environment**\nEnsure you have:\n- A working **Telegram Bot** (get one from [BotFather](https://t.me/BotFather)).\n- A **Google Sheet** ready (copy the link below to replace in the workflow):\n  ```\n  https://docs.google.com/spreadsheets/d/1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s/edit?usp=drivesdk\n  ```\n- Required credentials configured in n8n:\n  - `Telegram account` (Bot token)\n  - `Google Sheets account` (OAuth2)\n  - `Mistral Cloud account` (for text extraction)\n  - `Google Gemini(PaLM) Api account`\n\n> ⚠️ Replace the Google Sheet ID (`1IGyoSvQdjK8PYIGHyH59VI1zXqzxPaYhAx5GCKL7O6s`) with your own if needed.\n\n---\n\n### 2. **Start Sending Invoices**\n\nSimply send any of the following file types to your Telegram bot:\n- PDF\n- JPG / JPEG\n- PNG\n- GIF\n- BMP\n- WebP\n- TIFF / TIF\n- SVG\n- HEIC / HEIF\n\n> ✅ Example: Upload a scanned receipt or digital invoice as a photo or PDF.\n\n---\n\n### 3. **What Happens Next?**\n\n| Step | Action |\n|------|--------|\n| 1️⃣ | Bot checks file type. Invalid formats are rejected immediately. |\n| 2️⃣ | AI extracts text and analyzes structure using Google Gemini. |\n| 3️⃣ | If valid, the invoice is parsed into structured data (company names, dates, line items, totals). |\n| 4️⃣ | Data is formatted and saved to your Google Sheet. |\n| 5️⃣ | You receive a preview message in Telegram with all key details. |\n\n✅ **Success!** No more manual data entry.\n\n---\n\n## 📊 Sample Output (in Google Sheets)\n\nYour sheet will include fields like:\n- `Invoice Number`, `Order Number`\n- `From Company`, `To Company`\n- Line item details: Quantity, Service, Rate, Adjustment, Total\n- Subtotal, Tax, Total Due\n- Bank details: Account #, BSB, Bank Name\n- Status: `Pending Approval`, Created At timestamp\n\n> All data is auto-updated and traceable.\n\n---\n\n## 🛠️ Troubleshooting Tips\n\n| Issue | Solution |\n|------|----------|\n| \"Invalid file type\" | Only upload supported formats (PDF, images). |\n| \"Invoice validation failed\" | The AI couldn't parse the document. Try re-sending a clearer image/PDF. |\n| Missing fields | Ensure the invoice contains standard info (dates, amounts, services). |\n| Parsing errors | Check that the AI response isn’t corrupted. Re-run if needed. |\n\n---\n\n## 💡 Pro Tips\n\n- Use high-resolution scans for best results.\n- Keep invoices clean and uncluttered.\n- Consider adding a `/start` command in your Telegram bot to welcome users.\n- Add custom logic later (e.g., email alerts on large invoices).\n\n---\n\n## 📌 Want to Customize?\n\nYou can easily modify:\n- The prompt sent to Google Gemini (in `Basic LLM Chain`)\n- The output format in `Sheet Formatter`\n- Add approval workflows or notifications\n\nJust edit the nodes accordingly!\n\n---\n\n## 🙌 Final Note\n\nThis automation saves hours every month. Whether you're paying bills, tracking expenses, or billing clients — this tool makes it effortless.\n\n> 📬 *Need help setting it up? Just ask!*  \n> 🚀 *Let the bots do the work.*\n\n--- \n\n✅ **Ready to automate your invoicing? Send your first invoice now!**",
+        "height": 608,
+        "width": 704
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -2784,
+        -1424
+      ],
+      "typeVersion": 1,
+      "id": "5949a3be-be43-43b7-92f0-4058b2e20e17",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Input invoice in Pdf/Image",
+        "height": 240,
+        "width": 208
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -2048,
+        -1264
+      ],
+      "typeVersion": 1,
+      "id": "c64596da-7ba2-4422-a04b-da6e4cc6a673",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "## Text Extraction",
+        "height": 208,
+        "width": 896
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1600,
+        -1136
+      ],
+      "typeVersion": 1,
+      "id": "fb84b875-e417-4ff4-bb5c-b5dab6333d0e",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "content": "## Invoice Validation",
+        "height": 416,
+        "width": 256
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -656,
+        -1136
+      ],
+      "typeVersion": 1,
+      "id": "32d6cd55-e833-41b8-b7c1-f5f57b5d98f5",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "content": "## Invoice Saved",
+        "height": 384,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        112,
+        -1136
+      ],
+      "typeVersion": 1,
+      "id": "26c1ba4d-99b6-48de-9477-45a33890be73",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "content": "## Invoice Invalid",
+        "height": 192,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        112,
+        -1328
+      ],
+      "typeVersion": 1,
+      "id": "a53c0154-f3fc-4f1b-ac17-35c12fcbb93f",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "## Only PDF/Image file",
+        "height": 208,
+        "width": 256
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1600,
+        -1344
+      ],
+      "typeVersion": 1,
+      "id": "d2597da0-d34a-4a25-91e5-0b4a72dfcbbd",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "content": "## Valid or not",
+        "height": 208,
+        "width": 432
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -352,
+        -1136
+      ],
+      "typeVersion": 1,
+      "id": "e70c6b12-b122-4901-b66e-0fea35ed3778",
+      "name": "Sticky Note7"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the raw AI response text\nconst aiResponse = $json.text;\n\nlet parsed;\ntry {\n  // Extract JSON part (everything between ```json and ```)\n  let jsonString = aiResponse;\n  if (aiResponse.includes('```json')) {\n    const start = aiResponse.indexOf('```json') + 7;\n    const end = aiResponse.indexOf('```', start);\n    if (end !== -1) {\n      jsonString = aiResponse.substring(start, end).trim();\n    }\n  }\n  parsed = JSON.parse(jsonString);\n} catch (error) {\n  // If parsing fails, return null to stop execution or fallback\n  return [\n    {\n      json: {\n        is_correct: false,\n        reason: \"Failed to parse AI response. Raw output:\\n\" + aiResponse\n      }\n    }\n  ];\n}\n\n// Return parsed data\nreturn [\n  {\n    json: {\n      is_correct: parsed.is_correct || false,\n      reason: parsed.reason || \"No reason provided\",\n      missing_fields: parsed.missing_fields || [],\n      extracted: parsed.extracted || {}\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -288,
+        -1088
+      ],
+      "id": "d4794efa-52c0-4780-a430-383967adb43b",
+      "name": "Data Parser"
+    },
+    {
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\n\nlet message = `❌ Invoice validation failed:\\n\\n`;\n\n// Add reason if available\nif (item.reason) {\n  message += `${item.reason}\\n\\n`;\n}\n\n// Add missing fields if available\nif (item.missing_fields && Array.isArray(item.missing_fields) && item.missing_fields.length > 0) {\n  message += `📌 Missing fields: ${item.missing_fields.join(', ')}\\n\\n`;\n}\n\nmessage += `💡 Tip: Please fix the above issues and resend.`;\n\nreturn [\n  {\n    json: {\n      formatted_error: message\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        -1280
+      ],
+      "id": "b01171e9-7d92-4257-acd6-503d33f8ac2f",
+      "name": "Error Data formatter"
+    }
+  ],
+  "connections": {
+    "Extract text": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sheet Formatter": {
+      "main": [
+        [
+          {
+            "node": "Save to Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract File ID": {
+      "main": [
+        [
+          {
+            "node": "get invoice file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Data Parser",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ai check invoice": {
+      "main": [
+        [
+          {
+            "node": "Error Data formatter",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sheet Formatter",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "get invoice file": {
+      "main": [
+        [
+          {
+            "node": "download invoice file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "download invoice file": {
+      "main": [
+        [
+          {
+            "node": "Extract text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check invoice file": {
+      "main": [
+        [
+          {
+            "node": "No texts",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Extract File ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Telegram Bot Trigger": {
+      "main": [
+        [
+          {
+            "node": "check invoice file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Send Invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data Parser": {
+      "main": [
+        [
+          {
+            "node": "Ai check invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Error Data formatter": {
+      "main": [
+        [
+          {
+            "node": "Ai Invalid Invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "49101734a1adc4571d9727dab047330b44925dc443ba563c5991f3941d7c8a07"
+  }
+}
